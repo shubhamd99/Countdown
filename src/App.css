@@ -1,33 +1,41 @@
 .App {
-  text-align: center;
+	text-align: center;
+	font-size: 35px;
+	margin-top: 13%;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.App-title {
+	font-size: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Clock-days, .Clock-hours, .Clock-minutes, .Clock-seconds{
+	display: inline;
+	margin: 10px;
+	
 }
 
-.App-link {
-  color: #61dafb;
+.Form-css {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Deadline-input {
+	font-size: 30px;
+	margin: 5px;
+
 }
+
+.Footer-bottom{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+    width: 100%; 
+	background-color: #C70039;
+	height : 30px;
+}
+
